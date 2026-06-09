@@ -12,40 +12,43 @@ The solution includes data modeling, ETL processing, dimensional modeling, and i
 
 Organizations managing short-term rental platforms need visibility into:
 
-Revenue performance
-Booking trends
-Customer demographics
-Listing ratings
-Experience popularity
-Customer spending patterns
+Revenue performance,
+Booking trends,
+Customer demographics,
+Listing ratings,
+Experience popularity,
+Customer spending patterns.
 
 This project transforms raw transactional data into an analytical model that supports data-driven decision making.
 
 # Data Warehouse Design
 # Dimension Tables
-Customer Dimension
-Listing Dimension
-Experience Dimension
-Date Dimension
+Customer Dimension,
+Listing Dimension,
+Experience Dimension,
+Date Dimension.
 # Fact Tables
-Transaction Fact
-Listing Review Fact
-Experience Review Fact
+Transaction Fact,
+Listing Review Fact,
+Experience Review Fact.
 # Data Modeling
 
 Implemented a star-schema style analytical model using:
 
-Dimension Tables
-Raw Fact Tables
-Link Table
-Final Fact Tables
+Dimension Tables,
+Raw Fact Tables,
+Link Table,
+Final Fact Tables.
 
 The model was optimized to support efficient reporting and dashboard visualizations in QlikView.
 
 # Technologies Used
 QlikView
+
 Data Warehousing
+
 Dimensional Modeling
+
 ETL Processing
 KPI Reporting
 Business Intelligence
